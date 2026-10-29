@@ -54,6 +54,21 @@ dstar serve \
         --port 8000 \
         --ctx 524000
 ```
+Recently,  ```Splash-M1``` is upgraded to  **ver. 1.4.0**, which is a significant step forward since **ver. 1.4.0** allows you to load ```Qwen3.8 Flash Next```;
+```
+splash-m1 serve \
+	--model ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF:IQ3_S \
+	--host 127.0.0.1 \
+	--port 8000 \
+	--max-memory 120GB \
+	--max-context 256k \
+	--kv-format bf16 \
+	--default-reasoning-effort low \
+	--language-only
+```
+`Qwen3.8-Flash-Next-GSQ-RCO-GGUF:IQ3_S` is a <ins>3bit quantized model</ins> around 84Gb which fits nicely under my M1-Studio 128GB RAM restriction.  I have noticed a consistent speed increase with **40-80 token/sec decoding without dropping a quality**.  
+
+This is pretty amazing improvement over other agents and models, accompanied within a very short time frame, and the files in this project are in part created by `Splash-M1 with 177B parameter,  ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF:IQ3_S` and edited by me.  Depth and speed of decoding by `Qwen3.8 Flash` model is really impressive and definitely a significant technological jump from the predecessor, `Qwen3.8-27B`.  
 
 
         
