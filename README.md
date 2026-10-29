@@ -11,7 +11,7 @@ The models and agents that I have been playing with are;
 | :---: | :---: |
 | Jundot/Qwen3.6-35B-A3B-oQ4e-mt | Omlx | 
 | Jundot/DeepSeek-V4-Flash-0731-oQ2.5e | Omlx |
-| Youssofal/Qwen3.8-27B-MTPLX-Optimized-Quality-FP16 | MTPLX |
+| Youssofal/Qwen3.8-27B-MTPLX-Optimized-Quality-FP16 | MTPLX + OpenWeb UI |
 | Youssofal/Qwen3.8-Flash-Next-MTPLX-Optimized-Speed | MTPLX + OpenWeb UI |
 | unsloth/Qwen3.5-4B-MTP-GGUF | Unsloth |
 | unsloth/Qwen3.8-27B-GGUF | Unsloth |
