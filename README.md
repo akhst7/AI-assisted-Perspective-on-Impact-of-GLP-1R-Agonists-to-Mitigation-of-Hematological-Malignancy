@@ -70,8 +70,29 @@ splash-m1 serve \
 
 This is pretty amazing improvement over other agents and models, accompanied within a very short time frame, and the files in this project are in part created by `Splash-M1 with 177B parameter,  ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF:IQ3_S` and edited by me.  Depth and speed of decoding by `Qwen3.8 Flash` model is really impressive and definitely a significant technological jump from the predecessor, `Qwen3.8-27B`.  
 
+As of speaking, `Splash-M1` is upgraded to v1.5.0 and now accepts a corresponding `DFlash2` model as follows;
+```
+splash-m1 serve \
+	--model ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF:IQ3_S \
+	--draft-model incoai/Qwen3.8-Flash-Next-DFlash2 \
+	--host 127.0.0.1 \
+	--port 8000 \
+	--max-memory 120GB \
+	--max-context 256k \
+	--kv-format bf16 \
+	--default-reasoning-effort medium \
+	--language-only
+```
+The new version runs consistently **over 50 token/sec** even during heavy decoding process.  Very impressive with the old M1 chip.  
 
-        
+Anyhow, I think I am going to stick with `Splash-M1` with Qwen models for now.  This combo runs much faster without compromising quality.  I can't wait to try `Qwen4` and see what. 
+___
+
+Now, I have a few comments on the writing, about hematological malignancy, particularly of the myeloid origin is exceedingly difficult to treat. Currently the only viable option is allogenic bone marrow transplant. However, a chance of the complete remission is considerably low especially for older individuals over 70, and not to mention that bone marrow transplant, the procedure itself and  post-transplant management with a slew of immunosuppressants will be fairly brutal for elderly.  
+
+Like other malignancies, there are at least two steps in the development of hematological malignancy, tumor initiation and promotion.  The initiation is marked by the mutational event of key genes (e.g. DNMT3A, TET2, MYC, or ASXL1)  that regulate proliferation of hematopoietic stem and progenitor cells, and followed by promotion of the mutational event by clonal expansion of cells with these mutated genes.  
+
+Then, the obvious question is whether it is possible to intervene or even prevent hematological tumor before it becomes a full-blown malignant tumor with increasingly limited treatment options.  This writing assisted by LLM addresses this by proposing the root cause of **tumor promotion** and explore a potential metabolic intervention.  
 
 
 
