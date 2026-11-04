@@ -2,7 +2,9 @@
 
 My perspectives on whether GLP-1R Agonists, known for weight control may have unexpected impact in mitigating progressions of mutation driven clonal hematopoiesis  into hematological malignancy.
 I was going to write this article for **Medium** but did not go as I planned.  Initially, I heavily let LLM to research relevant information (basically literature search) and create a draft. I was planning to edit the draft and publish.  LLMs I used had kept making errors and did not like the casual writing styles proposed by LLMs.  So I decided to let LLMs do research and write a draft for peer-reviewed journals with more strict rules, and then All of sudden, it stop making as many errors.  As suggested by many, feeding LLMs more detailed information would make them more focus on the subject and they will proceed with less hallucination.  
-***
+
+## Optimization of LLM and Agents used in M1-Ultra MacStudio for Inference Generation ##
+
 The models and agents that I have been playing with are;
 
 | Model | Agent |
@@ -84,7 +86,9 @@ splash-m1 serve \
 The new version runs consistently **over 50 token/sec** even during heavy decoding process.  Very impressive with the old M1 chip.  
 
 Anyhow, I think I am going to stick with `Splash-M1` with Qwen models for now.  This combo runs much faster without compromising quality.  I can't wait to try `Qwen4` and see what. 
-___
+
+## Comments on The Manuscript
+
 
 Now, I have a few comments on the writing, about hematological malignancy, particularly of the myeloid origin is exceedingly difficult to treat. Currently the only viable option is allogenic bone marrow transplant. However, a chance of the complete remission is considerably low especially for older individuals over 70, and not to mention that bone marrow transplant, the procedure itself and  post-transplant management with a slew of immunosuppressants will be fairly brutal for elderly.  
 
