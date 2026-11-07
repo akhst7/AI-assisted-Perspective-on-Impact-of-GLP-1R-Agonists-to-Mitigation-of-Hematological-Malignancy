@@ -100,6 +100,8 @@ In this writing, the proposed main cause of the tumor promotion is the unbalance
 
 The next logical possibility also suggested by LLM is lowering the systemic inflammation which GLP-1R agonists have been shown to be effective in mitigating, and potentially a major anti-inflammatory effects of GLP-1R could be attributed to the weight loss. If this were the case, can one simply carry out **caloric restriction** and accomplish the same result without even taking GLP-1R agonists ?  GLP-1R agonists will be prescription drugs and those who are in the healthy wight/BMI range will not be able to prescribe it even though GLP-1R agonists are undoubtedly beneficial overall to our health.  This is an important issue and is discussed in the writing. 
 
-Anyhow, this writing is the synthesis as the result of discussion between me and LLM.  Arguably, LLM is the one of the finest and most capable graduate student or postdoc I've ever worked with. 
+As of now, the notion that GLP-1R agonists as effective anti-cancer drugs may no longer be a hypothesis.  There are dozens of clinical trials registered in the NCI clinical cancer trials and currently, dozens more clinical trails for anti-inflammatory and anti-aging effects of GLP-1R agonists are ongoing.  Hopefully, we will know more about this in a few years.   
+
+Lastly, this writing is the synthesis as the result of discussion between me and LLM.  Arguably, LLM is the one of the finest and most capable graduate student or postdoc I've ever worked with. 
 
 
